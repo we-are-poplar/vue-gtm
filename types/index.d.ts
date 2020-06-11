@@ -75,6 +75,7 @@ export interface VueGtmObject {
     label?: any
     value?: any
     noninteraction?: boolean
+    [key: string]: any
   }): void
 }
 
